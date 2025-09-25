@@ -11,94 +11,92 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Human-led learning",
+			description: "Technology amplifies great teaching rather than replacing it."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Process over product",
+			description: "How students think and iterate matters more than perfect final outcomes."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Real-world missions",
+			description: "Students tackle authentic challenges that create genuine impact."
+		},
+		{
+			title: "Ethical AI literacy",
+			description: "Understanding both the power and responsibility that comes with AI tools."
+		},
+		{
+			title: "Systems thinking",
+			description: "Seeing connections, understanding complexity, and designing thoughtful solutions."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Where great minds build"
+	subtitle="Human-led, AI-literate learning"
+	imageSrc="/generated/image-a-small-group-of-diverse-students-and-a-.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We founded our school with a clear conviction: education must evolve as dramatically as the world around us. While others debate whether AI belongs in classrooms, we're pioneering how humans and AI can collaborate to unlock extraordinary learning.",
+		"Our Vienna campus represents more than progressive education—it's a laboratory for the future. Here, internationally-minded families find an environment where academic rigor meets authentic AI literacy, where students don't just consume information but create solutions.",
+		"From day one, we've asked ourselves: 'How do we prepare minds for a world that doesn't exist yet?' This question drives every curriculum decision, every teaching methodology, and every real-world mission we undertake with our students.",
+		"We believe the future belongs to those who can think systemically, collaborate authentically, and direct technology purposefully. Our graduates don't just succeed—they shape the world they inherit through the power of great thinking amplified by great tools."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet our founders."
+	subtitle="Visionaries shaping the future of education."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			name: "Alexander Zirkler",
+			position: "Co-Founder",
+			bio: "Educational innovator dedicated to creating learning environments where human creativity and AI capability unite to unlock student potential.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Friederike Seiler",
+			position: "Co-Founder",
+			bio: "Passionate advocate for authentic assessment and experiential learning, pioneering process-focused education that prepares students for an AI-driven world.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
+<!-- Partnership Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Real-world partnerships."
+	subtitle="Collaborating with Vienna's leading institutions"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "University of Vienna",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Vienna International Centre",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Austrian Research Centres",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to explore the future of education?"
+	subtitle="Discover how your child can thrive in our AI-amplified learning environment"
+	description="Join the internationally-minded families already choosing our human-led, technology-enhanced approach to preparing students for tomorrow's world."
 />
