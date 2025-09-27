@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Real school. Real problems. Real outcomes."
+	subtitle="Where students think deeply, build boldly, and defend their work."
+	imageSrc="/generated/image-a-small-group-of-diverse-international-s.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by internationally-minded families from"
+	logoUrls={[
+		'https://cdn.brandfetch.io/microsoft.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/un.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/siemens.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/bmw.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
