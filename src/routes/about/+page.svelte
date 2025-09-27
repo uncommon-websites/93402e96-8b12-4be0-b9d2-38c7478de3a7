@@ -96,7 +96,20 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to explore the future of education?"
-	subtitle="Discover how your child can thrive in our AI-amplified learning environment"
-	description="Join the internationally-minded families already choosing our human-led, technology-enhanced approach to preparing students for tomorrow's world."
+	title="Schedule your family visit"
+	subtitle="Experience the AURA difference firsthand"
+	description="Discover how your child can join Vienna's most innovative cohort of students mastering the future of human-AI collaboration. Our Mission Nights showcase real student projects defending their process—see what authentic AI literacy looks like."
+	imageSrc="/generated/image-a-warm-candid-scene-of-an-international-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Book campus tour",
+			variant: "primary"
+		},
+		{
+			href: "/mission-nights",
+			label: "Attend Mission Night",
+			variant: "secondary"
+		}
+	]}
 />
